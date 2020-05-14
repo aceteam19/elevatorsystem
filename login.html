@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login Page</title>
+		<link rel = "stylesheet" href = "style.css" />
+		<style></style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="vue.js"></script>
+		<script>
+			function initialize()
+			{
+				loginA = document.getElementById("login"); 
+			}
+			
+		/* Possible code if using data ?
+		
+			function login()
+			{
+				v-for="user_id in users_data"
+				{
+					if({{user_data.user_id}} == user_id && {{user_data.password}} == user_password)
+					{
+						loginA.setAttribute("location.href='dashboard.html';");
+					}
+				}
+			}
+		*/
+		
+			function login()
+			{
+				location.href='all items.html';
+			}
+			
+			function myFunction() 
+			{
+				var x = document.getElementById("user_password");
+				if (x.type === "password") 
+				{
+					x.type = "text";
+				} else {
+					x.type = "password";
+				}
+			}
+		
+		</script>
+	</head>
+	<body onload="initialize();">
+		<center>
+			<button class="login1">Sign Up</button><br /><br />
+			<button class="login1" onclick="location.href='help.html';">Help</button><br /><br /><br />
+			
+			<div class="large_text">Welcome</div><br />
+			
+			<input type="text" placeholder="User ID" id="user_id" maxlength="9"><br /><br />
+			<input type="password" placeholder="Password" id="user_password" class="password">
+			<input type="checkbox" onclick="myFunction()" class="show_p">Show <br /><br />
+			
+			<button class="login" id="login" onclick="login();">Login</button>
+		</center>
+	
+	</body>
+</html>

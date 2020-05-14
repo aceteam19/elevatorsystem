@@ -1,0 +1,81 @@
+button
+{
+	display: inline-block;
+	width: 30%;
+	height: 40px;
+	margin: 1%;
+	border-radius: 8px;
+	border: 2px solid grey;
+	background-color: #f2f2f2;
+	color: grey;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+table
+{
+	width:100%;
+	border-collapse:collapse;
+	text-align: left;
+}
+
+td, th, tr
+{
+	border: thin solid grey;
+	padding:5px;
+	width:15%
+}
+
+.highlight 
+{
+	background-color: yellow;
+}			
+
+.search
+{
+	width: 30px;
+	height: 30px;
+}
+
+.link
+{
+	float:right;
+}
+
+input
+{
+	width: 30%;
+	height: 25px;
+}
+
+.large_text
+{
+	font-size: 50px;
+	margin: 10px;
+}
+
+.login
+{
+	width: 60px;
+	height: 30px;
+}	
+
+.login1
+{
+	width: 80px;
+	height: 30px;
+	float: right;
+	margin: 2px;
+}	
+
+.password
+{
+	width: 20%;
+}
+
+.show_p
+{
+	width: 15px;
+	height: 15px;
+}
